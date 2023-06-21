@@ -21,7 +21,7 @@
 
 ![Screenshot (32)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/e03257de-0fd7-460f-91dc-8750c14adf45)
 
-## Presentation slides
+## Presentation flow
 This is my presentation flow of the project 
 
 ### 1. Project Big Questions and Target Audience, Business overview
