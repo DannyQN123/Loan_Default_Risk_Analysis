@@ -8,7 +8,18 @@
 ## Steps: 
 1. Identify 4 factors that can affect a customer's repayment ability based on Pearson Correlation
 2. From these 4 factors, derive some actionable business insights using Descriptive Stats (kdeplot, bar charts....)
-3. Also from these 4 factors, perform feature-engineering ==> we have 2 engineered-features (the other 2 features are given
+4. 3. Also from these 4 factors, perform feature-engineering ==> we have 2 engineered-features (the other 2 features are given)
+4. Build 3 Predictive Models: Logistics Regression, Random Forest, LGBM 
+5. Use ROC AUC as the metric to evaluate the 3 models and determine that LGBM is the best model for this problem 
+6. Put the 4 engineered features into our LGBM model, and see that these 4 engineered features helped improved our baseline-LGBM model
+7. Conclusion: what business insights is derived from these **factors** , and are the **engineered** features helped improve our predictive model.
+8. Next step suggestions.
+
+## ROC AUC Score of different models
+- Baseline are baseline models without adding engineered features
+
+
+![Screenshot (32)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/e03257de-0fd7-460f-91dc-8750c14adf45)
 
 ## Presentation flow
 This is my presentation flow of the project 
@@ -45,6 +56,18 @@ This is my presentation flow of the project
 ![Screenshot (67)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/571ed51f-5834-4232-b9da-41873c070d93)
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
+
+### 9. How can we ultilize machine learning, Features used, Machine learning models comparison & Importance of features and Engineered Deatures
+
+![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
+![Screenshot (71)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/b7b8f488-69bd-4dbc-9b2e-22185ba9819e)
+![Screenshot (72)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/50f4e1b3-9ac6-429b-baf4-eca7ea8c42f2)
+![Screenshot (73)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c57dfab0-d4bd-4775-b765-bf686be199e3)
+![Screenshot (74)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c24be424-879b-4f65-b7e6-9f8ab9942044)
+
+### 10. Conclusion & Next step
+![Screenshot (75)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/4e9df9db-e089-46d7-bf7b-18eeac979556)
+![Screenshot (76)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/f87cc3a4-8965-4b85-b490-e25f0f245373)
 
 
 
