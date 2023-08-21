@@ -8,7 +8,7 @@
 ## Steps: 
 1. Identify 4 factors that can affect a customer's repayment ability based on Pearson Correlation
 2. From these 4 factors, derive some actionable business insights using Descriptive Stats (kdeplot, bar charts....)
-4. 3. Also from these 4 factors, perform feature-engineering ==> we have 2 engineered-features (the other 2 features are given)
+4. Also from these 4 factors, perform feature-engineering ==> we have 2 engineered-features (the other 2 features are given)
 4. Build 3 Predictive Models: Logistics Regression, Random Forest, LGBM 
 5. Use ROC AUC as the metric to evaluate the 3 models and determine that LGBM is the best model for this problem 
 6. Put the 4 engineered features into our LGBM model, and see that these 4 engineered features helped improved our baseline-LGBM model
