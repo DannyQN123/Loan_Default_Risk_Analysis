@@ -11,7 +11,6 @@
 3. Evaluate the 3 Machine Learning models and determine that LGBM is the best model for this problem 
 4. Used the 2 insights to improve our baseline-LGBM model
 5. Conclusion: what business insights is derived from these **factors** , and are the **engineered** features helped improve our predictive model.
-6. Next step suggestions.
 
 ## ROC AUC Score of different models
 - Baseline are baseline models without adding engineered features
@@ -62,7 +61,3 @@ This is my presentation flow of the project
 ![Screenshot (72)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/50f4e1b3-9ac6-429b-baf4-eca7ea8c42f2)
 ![Screenshot (73)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c57dfab0-d4bd-4775-b765-bf686be199e3)
 ![Screenshot (74)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c24be424-879b-4f65-b7e6-9f8ab9942044)
-
-### 10. Conclusion & Next step
-![Screenshot (75)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/4e9df9db-e089-46d7-bf7b-18eeac979556)
-![Screenshot (76)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/f87cc3a4-8965-4b85-b490-e25f0f245373)
