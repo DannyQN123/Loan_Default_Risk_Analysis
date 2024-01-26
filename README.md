@@ -54,10 +54,10 @@ This is my presentation flow of the project
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
 
-### 9. How can we ultilize machine learning, Features used, Machine learning models comparison & Importance of features and Engineered Deatures
-
+### 9. How these insights can act as engineered features to help improving machine learning models
 ![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
-![Screenshot (71)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/b7b8f488-69bd-4dbc-9b2e-22185ba9819e)
-![Screenshot (72)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/50f4e1b3-9ac6-429b-baf4-eca7ea8c42f2)
+### Incorporate these insights as engineered features improved the accuracy (from 74.37% to 75.84%, measured by ROC curve) of machine learning models
+![Screenshot (72) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/ad6e922c-8f9b-4b48-ad0b-5feb38ab6d6d)
+### The 2 insights (Credit Term & Annuity Income Times) are considered fairly important by the machine learning models.
 ![Screenshot (73)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c57dfab0-d4bd-4775-b765-bf686be199e3)
 ![Screenshot (74)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c24be424-879b-4f65-b7e6-9f8ab9942044)
