@@ -10,7 +10,7 @@
 2. From 1 of the factor (Age), derive some actionable business insights using plotting (density plot, bar charts....)
 3. Evaluate the 3 Machine Learning models and determine that LGBM is the best model for this problem 
 4. Used the 2 insights to improve our baseline-LGBM model
-5. Conclusion: what business insights is derived from these **factors** , and are the **engineered** features helped improve our predictive model.
+5. Conclusion: what business insights is derived from these **factors** , and are the extra 2 insights helped improve our predictive model.
 
 ## ROC AUC Score of different models
 - Baseline are baseline models without adding engineered features
