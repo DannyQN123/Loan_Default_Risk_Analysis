@@ -58,6 +58,6 @@ This is my presentation flow of the project
 ![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
 ### Incorporate these insights as engineered features improved the accuracy (from 74.37% to 75.84%, measured by ROC curve) of machine learning models
 ![Screenshot (72) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/ad6e922c-8f9b-4b48-ad0b-5feb38ab6d6d)
-### The 2 insights (Credit Term & Annuity Income Times) are considered fairly important by the machine learning models.
 ![Screenshot (73)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c57dfab0-d4bd-4775-b765-bf686be199e3)
+### The 2 insights (Credit Term & Annuity Income Times) are considered fairly important by the machine learning models.
 ![Screenshot (74)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c24be424-879b-4f65-b7e6-9f8ab9942044)
