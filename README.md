@@ -9,7 +9,7 @@
 1. Identify top 4 factors that affect a customer's repayment ability based on correlation (2 are given, 2 are engineered feature)
 2. From 1 of the factor (Age), derive some actionable business insights using plotting (density plot, bar charts....)
 3. Evaluate the 3 Machine Learning models and determine that LGBM is the best model for this problem 
-4. Used the 2 insights to improve our baseline-LGBM model
+4. Used the 2 insights to improve machine learning model
 5. Conclusion: what business insights is derived from these **factors** , and are the extra 2 insights helped improve our predictive model.
 
 ## ROC AUC Score of different models
@@ -54,7 +54,7 @@ This is my presentation flow of the project
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
 
-### 9. How these insights can act as engineered features to help improving machine learning models
+### 9. How factor 3 & 4 can act as engineered features to help improving machine learning models
 ![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
 ### Incorporate these insights as engineered features improved the accuracy (from 74.37% to 75.84%, measured by ROC curve) of machine learning models
 ![Screenshot (72) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/ad6e922c-8f9b-4b48-ad0b-5feb38ab6d6d)
