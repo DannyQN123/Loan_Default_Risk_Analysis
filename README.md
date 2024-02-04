@@ -8,15 +8,6 @@
 1. Identify top 4 factors that affect a customer's repayment ability based on correlation (2 are given, 2 are engineered feature)
 2. From 1 of the factor (Age), derive some actionable business insights using plotting (density plot, bar charts....)
 3. Derive some more insights from 3 remaining factors that can help business make better decision
-4. Test if factor 3 and 4 help improve a predictive model
-5. Conclusion: what business insights is derived from these **factors** , and are the extra 2 insights helped improve our predictive model.
-
-## ROC AUC Score of different models
-- Baseline are baseline models without adding engineered features
-
-
-![Screenshot (32)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/3512e470-5584-472d-a1c6-cdef50a71223)
-
 
 ## Presentation flow
 This is my presentation flow of the project 
