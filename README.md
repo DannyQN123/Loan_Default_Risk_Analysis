@@ -53,11 +53,3 @@ This is my presentation flow of the project
 ![Screenshot (67)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/571ed51f-5834-4232-b9da-41873c070d93)
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
-
-### 9. How factor 3 & 4 can act as engineered features to help improving machine learning models
-![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
-### Incorporate factor 3 & 4 as engineered features improved the accuracy (from 74.37% to 75.84%, measured by ROC curve) of machine learning models
-![Screenshot (72) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/ad6e922c-8f9b-4b48-ad0b-5feb38ab6d6d)
-![Screenshot (73)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c57dfab0-d4bd-4775-b765-bf686be199e3)
-### The 2 insights (Credit Term & Annuity Income Times) are considered fairly important by the machine learning models.
-![Screenshot (74)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c24be424-879b-4f65-b7e6-9f8ab9942044)
