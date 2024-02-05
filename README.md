@@ -69,7 +69,8 @@ This is my presentation flow of the project
 ![Screenshot (71) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/6c49394c-fb3f-43e2-bc7d-3b743a8316b7)
 
 ### 9C. Models comparison:  
-- As said above, tree-based models (Random Forest and LGBM) performs much better than Logistics Regression, judging by ROC AUC score. 
+- As said above, tree-based models (Random Forest and LGBM) performs much better than Logistics Regression, judging by ROC AUC score.
+
 ![Screenshot (72)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/50f4e1b3-9ac6-429b-baf4-eca7ea8c42f2)
 ### 9D. Some insights - Using feature importance by machine learning model:  
 
