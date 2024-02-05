@@ -2,12 +2,20 @@
 
 ## Big Question: 
 - What are the factors that influence Home Credit customers' repayment ability ?
+- This is a Binary-Classification problem.
 - See the **Steps** & **Presentation** flow below for further detail. 
+
 
 ## Steps: 
 1. Identify top 4 factors that affect a customer's repayment ability based on correlation (2 are given, 2 are engineered feature)
 2. From 1 of the factor (Age), derive some actionable business insights using plotting (density plot, bar charts....)
 3. Derive some more insights from 3 remaining factors that can help business make better decision
+4. Evaluate the 3 Machine Learning models to derive some insights: What factors are most predictive of customer's ability to repay debt ?
+
+## ROC AUC Score (as the measurement of predictive power) of different models
+- Baseline are baseline models without adding engineered features. (So additional engineered features do help improve the predictive power of the model)  
+
+![Screenshot (32)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/e03257de-0fd7-460f-91dc-8750c14adf45)
 
 ## Presentation flow
 This is my presentation flow of the project 
@@ -44,3 +52,33 @@ This is my presentation flow of the project
 ![Screenshot (67)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/571ed51f-5834-4232-b9da-41873c070d93)
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
+
+### 9. Use machine learning for insights analysis: What features of customer is used most by Machine Learning models to determine the probability of them defaulting on loans ?  
+- (meaning: Possibly a customer's age is influential on the probability of default, according to a machine learning model ? As in, ***older customer tends to less likely to default on loans ?***) 
+
+![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
+
+### 9A. Prediction Probability:  
+- Means the probability of default on loan predicted by Machine learning models (so if the model predict 0.268, this means that there is a 26.8% that this person will default on loans)  
+### 9B. Input 123 features into machine learning models:   
+- Putting too many features into ML model like this means sacrificing interpretability, but the aim is to alternatively demonstrate that when dataset becomes complex, ***tree-based model*** is better at capturing complex patterns, judging by ROC metrics.  
+
+![Screenshot (71) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/6c49394c-fb3f-43e2-bc7d-3b743a8316b7)
+
+### 9C. Models comparison:  
+- As said above, tree-based models (Random Forest and LGBM) performs much better than Logistics Regression, judging by ROC AUC score. 
+![Screenshot (72)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/50f4e1b3-9ac6-429b-baf4-eca7ea8c42f2)
+### 9D. Some insights - Using feature importance by machine learning model:  
+
+- Looking at the ***feature importance*** by LGBM model (measured by number of splits - meaning how many time the model use this feature (e.g age of a customer, credit score of a customer)) to make decisions between - whether the customer going default or not.  
+
+- We can see that the model use previous ***credit-scores*** (from other loan institutions - the name being ***ext_source_1 ,2 ,3***), among other top features, of customers many times **to make decision** whether they will default or not.   
+
+- This make sense ***under business perspective***, being that customer's ***previous credit-scores*** are good indicators of whether they will be able to repay the current loans they have with Home-Credit     
+- Also, according to the model, the ratios calculated by us ***(Credit Term & Income/Annuity Times)*** are also good indicator of whether the customer will default or not.  
+- Further insights can be observe from these slides below, features like age, days_employed (how long have they been employed),.....of customers effect on their repayment ability.  
+
+![Screenshot (73)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c57dfab0-d4bd-4775-b765-bf686be199e3)
+![Screenshot (74)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/c24be424-879b-4f65-b7e6-9f8ab9942044)
+
+
