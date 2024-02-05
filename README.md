@@ -25,11 +25,11 @@ This is my presentation flow of the project
 ![Screenshot (55)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/35b52b45-b33a-448d-a43c-a3258d27d020)
 ![Screenshot (56)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/17b10d6b-ce12-40d2-9fb6-3925fea66fd5)
 
-### 3. Product overview & Dataset Overview
+### 2. Product overview & Dataset Overview
 
 ![Screenshot (57)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/4667cc61-cac0-44cb-ba48-0c6cb957d7f3)
 
-### 4. Dataset Schema, Presentation flow  
+### 3. Dataset Schema, Presentation flow  
 
 - Dataset for this task is provided plenty, so we will focus only on the 2 datasets in Red Redtangle below.
 - Other dataset can be look at in the future.
@@ -37,18 +37,18 @@ This is my presentation flow of the project
 ![Screenshot (58)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/37c1fbf6-f55f-4508-b4cd-76ffaa76c055)
 ![Screenshot (59)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/6366a330-73cd-446d-a120-bbf5a2c71b7b)
 
-### 6. Factor 1: Age
+### 4. Factor 1: Age
 
 ![Screenshot (60)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/91db019d-d0e4-48b5-83f3-677f46fec03c)
 ![Screenshot (61)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/933bfbde-0f9b-40e6-84ff-78ae71e87703)
 ![Screenshot (62)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/ab1db301-d399-4357-94f8-5dd01cdb211e)
 
-### 7. Factor 2: External Credit Score
+### 5. Factor 2: External Credit Score
 
 ![Screenshot (63)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/2a7dc93e-1fe5-4534-9af8-1c2e4c06477b)
 ![Screenshot (64)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/ad5a9a23-27b8-4840-a656-815a118ddad7)
 
-### 8.  Factor 3 & 4: Credit Term & Income Annuity Ratio
+### 6.  Factor 3 & 4: Credit Term & Income Annuity Ratio
 
 ![Screenshot (65)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/eef909aa-2393-4fbd-ae7a-76203cad6bf6)
 ![Screenshot (66)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/018bf19a-ea3e-43b6-942c-9f361c67121e)
@@ -56,23 +56,23 @@ This is my presentation flow of the project
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
 
-### 9. Use machine learning for insights analysis: What features of customer is used most by Machine Learning models to determine the probability of them defaulting on loans ?  
+### 7. Use machine learning for insights analysis: What features of customer is used most by Machine Learning models to determine the probability of them defaulting on loans ?  
 - (meaning: Possibly a customer's age is influential on the probability of default, according to a machine learning model ? As in, ***older customer tends to less likely to default on loans ?***) 
 
 ![Screenshot (70)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/909470dc-d605-47d9-b5a2-9bbb31ba89dd)
 
-### 9A. Prediction Probability:  
+### 8A. Prediction Probability:  
 - Means the probability of default on loan predicted by Machine learning models (so if the model predict 0.268, this means that there is a 26.8% that this person will default on loans)  
-### 9B. Input 123 features into machine learning models:   
+### 8B. Input 123 features into machine learning models:   
 - Putting too many features into ML model like this means sacrificing interpretability, but the aim is to alternatively demonstrate that when dataset becomes complex, ***tree-based model*** is better at capturing complex patterns, judging by ROC metrics.  
 
 ![Screenshot (71) (2)](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/assets/107457149/6c49394c-fb3f-43e2-bc7d-3b743a8316b7)
 
-### 9C. Models comparison:  
+### 8C. Models comparison:  
 - As said above, tree-based models (Random Forest and LGBM) performs much better than Logistics Regression, judging by ROC AUC score.
 
 ![Screenshot (72)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/50f4e1b3-9ac6-429b-baf4-eca7ea8c42f2)
-### 9D. Some insights - Using feature importance by machine learning model:  
+### 8D. Some insights - Using feature importance by machine learning model:  
 
 - Looking at the ***feature importance*** by LGBM model (measured by number of splits - meaning how many time the model use this feature (e.g age of a customer, credit score of a customer)) to make decisions between - whether the customer going default or not.  
 
