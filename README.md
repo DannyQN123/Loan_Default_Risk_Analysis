@@ -32,7 +32,7 @@ This is my presentation flow of the project
 ### 3. Dataset Schema, Presentation flow  
 
 - Dataset for this task is provided plenty, so we will focus only on the 2 datasets in Red Redtangle below.
-- Other dataset can be look at in the future.
+- Other dataset can be looked at in the future.
 
 ![Screenshot (58)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/37c1fbf6-f55f-4508-b4cd-76ffaa76c055)
 ![Screenshot (59)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/6366a330-73cd-446d-a120-bbf5a2c71b7b)
