@@ -51,7 +51,6 @@ This is my presentation flow of the project
 ### 6.  Factor 3 & 4: Credit Term & Income Annuity Ratio
 
 ![Screenshot (65)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/eef909aa-2393-4fbd-ae7a-76203cad6bf6)
-![Screenshot (66)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/018bf19a-ea3e-43b6-942c-9f361c67121e)
 ![Screenshot (67)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/571ed51f-5834-4232-b9da-41873c070d93)
 ![Screenshot (68)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/a2255742-add4-401f-99e4-4d06f9f027e2)
 ![Screenshot (69)](https://github.com/DannyQN123/Home_Credit_Default_Risk_prediction/assets/107457149/48904444-47b7-434b-afea-5b4b369764af)
