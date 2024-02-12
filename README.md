@@ -1,4 +1,8 @@
 # Home_Credit_Default_Risk_prediction
+### The purposes of this project is:  
+1. To tinker with Machine Learning models, with a more focus on seeing how different models perform in complex datasets. Take a look at the [***8C. Models comparison:***](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/tree/main?tab=readme-ov-file#8c-models-comparison) section for more detail. 
+2. Look inside these Machine Learning models to derive any interesting insights. Take a look at section [***8D. Some insights - Using feature importance by machine learning model:***](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/tree/main?tab=readme-ov-file#8d-some-insights---using-feature-importance-by-machine-learning-model) for more detail. Machine Learning models can provide some interesting insights.   
+3. Along the way, try to find some interesting business insights within these data. Take a look at [***section 4 to section 6***](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/tree/main?tab=readme-ov-file#4-factor-1-age). These are some of the insights by using Correlations between Default Rate & various factors like Ages, Income over Annuity Ratio and such.
 
 ## Big Question: 
 - What are the factors that influence Home Credit customers' repayment ability ?
