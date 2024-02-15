@@ -1,7 +1,7 @@
 # Home_Credit_Default_Risk_prediction
 ### The purposes of this project is:   
 
-1. To tinker with Machine Learning models, with a more focus on seeing how different models perform in complex datasets. Take a look at the [***8C. Models comparison:***](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/tree/main?tab=readme-ov-file#8c-models-comparison) section for more detail.
+1. To tinker with Machine Learning models, with a more focus on seeing how different models perform in complex datasets. Take a look at the [***8C. Models comparison:***](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/tree/main?tab=readme-ov-file#8c-models-comparison) section for more detail. I allow some creativity in this project because i want to see ***how LGBM and Random Forests*** perform in this tasks, although ***Logistics Regression*** should be the standard model to go for.
   
 2. - To understand how we can utiliize Machine Learning in predicting the ***Probability of Default (or PD)***, a required component in ***Credit Risk Modeling***.
    - In ***Credit Risk Modeling***, the ***Expected Loss (EL)*** equals the product of the ***Probability of Default (PD)***, ***Loss Given Default (LGD)*** and ***Exposure At Default (EAD)***, or ***EL = PD x LGD x EAD***. 
