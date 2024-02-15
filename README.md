@@ -5,7 +5,6 @@
   
 2. - To understand how we can utiliize Machine Learning in predicting the ***Probability of Default (or PD)***, a required component in ***Credit Risk Modeling***.
    - In ***Credit Risk Modeling***, the ***Expected Loss (EL)*** equals the product of the ***Probability of Default (PD)***, ***Loss Given Default (LGD)*** and ***Exposure At Default (EAD)***, or ***EL = PD x LGD x EAD***. This is related to the task of computing ***Capital Adequacy*** according to Risk the loan institutions exposed to in ***Basel accords***.
-   - An example for the formula ***EL = PD x LGD x EAD***: 
 
 3. Look inside these Machine Learning models to derive any interesting insights. Take a look at section [***8D. Some insights - Using feature importance by machine learning model:***](https://github.com/DannyQN123/Loan_Default_Risk_Analysis/tree/main?tab=readme-ov-file#8d-some-insights---using-feature-importance-by-machine-learning-model) for more detail. Machine Learning models can provide some interesting insights.
    
